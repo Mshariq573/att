@@ -50,7 +50,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Phone_And_devices')
 
 WebUI.click(findTestObject('Object Repository/Phone_And_devices'))
 
-WebUI.verifyTextPresent("Pick your phones", false)
+WebUI.verifyTextPresent("Pick your phones",  false)
 
 WebUI.click(findTestObject('Object Repository/Home'))
 
